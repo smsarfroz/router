@@ -12,6 +12,10 @@ const routes = [
     path: "profile/:name",
     element: <Profile />,
   },
+  {
+    path: "profile/",
+    element: <h1>Welcome to profile page!</h1>
+  }
 ];
 
 export default routes;

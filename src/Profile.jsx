@@ -16,7 +16,7 @@ const Profile = () => {
         <Popeye/>
       ) : name === "spinach" ? (
         <Spinach/>
-      ) : (
+      ) :  (
         <DefaultProfile />
       )}
     </div>
